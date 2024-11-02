@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero{
+  background-image: url(./assets/hero_2.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+li:hover{
+color: blue;
+}
+li:active{
+color: blue;
+}
