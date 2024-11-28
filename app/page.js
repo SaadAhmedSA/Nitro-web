@@ -1,19 +1,20 @@
 import React from 'react'
 import Navbar from './component/navbar'
 import Image from 'next/image'
-import about from '@/public/assets/hero.webp'
-import abou2 from '@/public/assets/slide_2.jpg.webp'
+import about from './assets/hero.webp'
+import abou2 from './assets/slide_2.jpg.webp'
+// import bg from "./assets/hero_2.jpg"
 
 
 const Page = () => {
   return (
     <>
-    <div className='h-[100vh] hero' id='home' >
+    <div className='h-[100vh] hero '   id='home' >
    <Navbar/>
-<div className='flex justify-center text-center font-serif  max-w-lg  text-white'>
+<div className='flex justify-center text-center font-serif w-full text-white'>
   <div>
-  <h1 className='my-4 text-4xl font-bold'>WELCOME TO NITRO.</h1>
-  <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio soluta eius error.Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio soluta eius error.</p>
+  <h1 className='my-4 text-5xl md:text4xl font-bold'>WELCOME TO NITRO.</h1>
+  <p className='max-w-screen-md' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio soluta eius error.Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio soluta eius error.</p>
   <button className=" mt-7 btn btn-primary hover:bg-black text-white rounded-full">Get in touch</button>
   </div>
 </div>

@@ -2,11 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.hero{
-  background-image: url(./assets/hero_2.jpg);
-  background-position: center;
-  background-size: cover;
 
+
+#home{
+    background-image: url(./assets/hero_2.jpg);
 }
 li:hover{
 color: blue;
